@@ -1,0 +1,17 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="public/css/quivel-browser.css">
+  <script type="text/javascript" src="public/js/quivel-browser.js"></script>
+</head>
+
+<body ng-app="quivel-browser">
+
+  <div class="quivel--menu">
+    <div class="quivel--menu-item" ng-class="{active: globalState.mode=='edit'}" ng-click="quivel.setEditMode()">Edit Mode</div>
+    <div class="quivel--menu-item" ng-class="{active: globalState.mode=='live'}" ng-click="quivel.setLiveMode()">Live Mode</div>
+  </div>
+
+</body>
+
+</html>

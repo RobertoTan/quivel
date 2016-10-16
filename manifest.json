@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Quivel",
+  "version": "0.1",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [ "public/js/quivel.js"],
+      "css": ["public/css/quivel.css"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "browser-page.html",
+    "default_icon": "icon.png"
+  },
+  "options_page": "options-page.html",
+  "permissions": [
+    "tabs",
+    "unlimitedStorage",
+    "http://localhost/"
+  ]
+}

@@ -1,0 +1,21 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="public/css/quivel-options.css">
+  <script type="text/javascript" src="public/js/quivel-options.js"></script>
+</head>
+
+<body ng-app="quivel-options">
+  <div class="max-size">
+    <h1>QUIVEL Options</h1>
+    <form name="options">
+      <div class="form-row">
+        <label for="currency">Currency</label>
+        <select id="currency" ng-model="$root.quivel.selectedCurrency" name="options.currency" ng-options="currency.value as currency.label for currency in globalState.currencyList"></select>
+        <button ng-click="$root.quivel.saveCurrency()">Save Currency</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

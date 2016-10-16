@@ -1,0 +1,30 @@
+.quivel--menu {
+  min-width: 200px;
+  display: table;
+  width: 100%;
+  @include box-sizing(border-box);
+}
+
+.quivel--menu-item {
+  background: #fff;
+  color: $orange;
+  text-align: center;
+  font-weight: 600;
+  padding: 0.5rem;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+  @include box-sizing(border-box);
+  &:hover {
+    background: $orange-hover;
+    color: #fff;
+  }
+  &.active {
+    background: $orange;
+    color: #fff;
+    &:hover {
+      background: $orange;
+    }
+  }
+}

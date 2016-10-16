@@ -1,0 +1,20 @@
+{
+  "name": "quivel",
+  "description": "Ubiquitous Travel",
+  "version": "0.0.1",
+  "author": "badoet",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-clean": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-coffee": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-coffeelint": "latest",
+    "grunt-sass": "latest"
+  },
+  "dependencies": {
+    "angular": "1.4.13",
+    "angular-sanitize": "1.4.13",
+    "jquery": "latest"
+  }
+}

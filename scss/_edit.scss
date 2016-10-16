@@ -1,0 +1,7 @@
+.quivel--edit-mode {
+  img, div, span {
+    &.hovered {
+      outline: 1px solid $orange;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.max-size {
+  width: 100%;
+  max-width: 480px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.form-row {
+  padding: 1rem 0.5rem;
+  border-bottom: 1px solid $light-grey;
+  label {
+    display: block;
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+  }
+  button {
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+}
